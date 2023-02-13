@@ -12,12 +12,18 @@ Instruction on how to set up a development environment on new Apple MacBook Pro 
 8. Install KDoctor "brew install kdoctor" - run and see problem with XCode and cocapods
 9. Fix Command Line Tools field in XCode setting - select your Xcode.
 10. Update ruby:
+
     1. "brew install ruby-install chruby"
     2. Edit .zshrc:
+
        source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+
        source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+
        chruby ruby-3.1.2
+
     3. install the lates ruby: "ruby-install --latest ruby" (check what version installed and update .zshrc accordingly) (check ruby --version)
+
 11. Install cocoapods: sudo gem install cocoapods
 12. Run kdoctor and see that all conditions satisfied.
 13. Build test KMM project and successfully run on iOS and Android simulators.
