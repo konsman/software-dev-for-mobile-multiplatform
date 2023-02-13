@@ -1,5 +1,7 @@
 ### Steps for Apple M2 silicon
 
+Instruction on how to set up a development environment on new Apple MacBook Pro with M2 chip to support cross-platform mobile development.
+
 1. Install browser: Chrome browser and login as google user.
 2. Install XCode (it will install git as well) from App Store, launch at least ones.
 3. Install Homebrew from https://brew.sh/ and update a zprofile
